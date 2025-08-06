@@ -9,7 +9,7 @@ const CartTable = () => {
       <h2 className="text-3xl font-bold mb-3 mx-110">🧾 Cart Details</h2>
       <table className="w-full border text-left">
         <thead>
-          <tr className="bg-gray-100">
+          <tr className= "bg-amber-100">
             <th className="p-2">#</th>
             <th className="p-2">Title</th>
             <th className="p-2">Price</th>
@@ -23,7 +23,7 @@ const CartTable = () => {
               <td className="p-2">${item.price}</td>
             </tr>
           ))}
-          <tr className="font-bold bg-gray-50">
+          <tr className="font-bold bg-amber-100">
             <td className="p-2"></td>
             <td className="p-2">Total</td>
             <td className="p-2">${total.toFixed(2)}</td>
