@@ -15,7 +15,7 @@ const AddProductModal = ({ close }) => {
   return (
     <div className="fixed inset-0 bg-black bg-opacity-40 flex justify-center items-center z-50">
       <div className="bg-white p-6 rounded shadow w-96">
-        <h3 className="text-lg font-bold mb-4">Add Product</h3>
+        <h3 className="text-lg font-bold mb-4 mx-4">Add Product</h3>
         <form onSubmit={handleSubmit} className="space-y-3">
           <input
             type="text"

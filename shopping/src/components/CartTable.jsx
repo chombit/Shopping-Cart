@@ -5,8 +5,8 @@ const CartTable = () => {
   const total = cart.reduce((sum, item) => sum + item.price, 0);
 
   return (
-    <div className="mt-10">
-      <h2 className="text-xl font-semibold mb-3">🧾 Cart Details</h2>
+    <div className="mt-10 mx-6">
+      <h2 className="text-3xl font-bold mb-3 mx-110">🧾 Cart Details</h2>
       <table className="w-full border text-left">
         <thead>
           <tr className="bg-gray-100">

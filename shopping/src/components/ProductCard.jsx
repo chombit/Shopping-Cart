@@ -5,7 +5,7 @@ const ProductCard = ({ product }) => {
   const dispatch = useDispatch();
 
   return (
-    <div className="border rounded shadow p-4">
+    <div className="border rounded shadow p-4 mx-4">
       <h3 className="font-bold">{product.title}</h3>
       <p>{product.description}</p>
       <p className="font-semibold text-green-600">${product.price}</p>

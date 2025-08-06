@@ -10,11 +10,11 @@ const ProductList = () => {
   return (
     <>
       <div className="flex justify-between items-center mb-4">
-        <h2 className="text-xl font-semibold">Products</h2>
+        <h2 className="text-3xl font-bold mx-130 ">Products</h2>
         <button
           onClick={() => setIsOpen(true)}
-          className="bg-blue-500 text-white px-4 py-2 rounded"
-        >
+          className="bg-blue-500 text-white px-4 py-2 rounded mx-4 my-4" 
+          >
           ➕ Add Product
         </button>
       </div>
