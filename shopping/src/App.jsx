@@ -1,13 +1,21 @@
 
 import './App.css'
+import ProductList from './components/ProductList.jsx'
+import CartTable from './components/CartTable.jsx'
+
 
 function App() {
   return (
     <>
-      <h1 className="text-3xl font-bold bg-amber-700">Shopping Cart</h1>
-
+    <div className="p-4">
+      <h1 className="text-4xl font-bold text-center mb-6 ">🛒 Shopping Cart</h1>   
+    </div>
+    <ProductList />
+    <CartTable />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
+
+  
